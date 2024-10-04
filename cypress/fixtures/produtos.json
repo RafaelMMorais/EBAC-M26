@@ -1,0 +1,26 @@
+[
+    {
+        "nomeProduto": "Bruno Compete Hoodie",
+        "tamanho": "XL",
+        "cor": "Black",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto": "Cassia Funnel Sweatshirt",
+        "tamanho": "M",
+        "cor": "Purple",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto": "Autumn Pullie",
+        "tamanho": "L",
+        "cor": "Red",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto": "Geo Insulated Jogging Pant",
+        "tamanho": "36",
+        "cor": "Red",
+        "quantidade": 4
+    }
+]

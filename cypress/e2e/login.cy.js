@@ -13,7 +13,7 @@ context('Funcionalidade Login', () => {
     });
 
     afterEach(() => {
-        cy.screenshot()
+        //cy.screenshot()
     });
 
     it('Login com sucesso usando Comando customizado', () => {
@@ -28,7 +28,7 @@ context('Funcionalidade Login', () => {
         cy.get('.page-title').should('contain', 'Minha conta')
     });
 
-    it('Deve fazer login com sucesso - sem otimização', () => {
+    it.skip('Deve fazer login com sucesso - sem otimização', () => {
         cy.get('#username').type(dadosLogin.usuario)
         cy.get('#password').type(dadosLogin.senha, { log: false })
         cy.get('.woocommerce-form > .button').click()
