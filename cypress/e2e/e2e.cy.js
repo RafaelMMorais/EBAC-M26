@@ -2,7 +2,7 @@
 import produtosPage from "../support/page_objects/produtos.page";
 import { faker } from '@faker-js/faker';
 
-context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
+context('Teste E2E - Fluxo de pedido', () => {
     beforeEach(() => {
         cy.visit('/')
     });
